@@ -25,13 +25,13 @@ EM.dispatchResetPasswordLink = function(account, callback)
 
 EM.composeEmail = function(o)
 {
-	var link = 'http://forgreed.github.io/reset-password'+o.email+'&p='+o.pass;
+	var link = 'http://forgreed.github.io/reset-password?e='+o.email+'&p='+o.pass;
 	var html = "<html><body>";
 		html += "Hi "+o.name+",<br><br>";
 		html += "Your username is :: <b>"+o.user+"</b><br><br>";
 		html += "<a href='"+link+"'>Please click here to reset your password</a><br><br>";
 		html += "Cheers,<br>";
-		html += "<a href='http://twitter.com/forgreed'>forgreed</a><br><br>";
+		html += "<a href='http://twitter.com/gugshrug'>gugshrug</a><br><br>";
 		html += "</body></html>";
 	return  [{data:html, alternative:true}];
 }
