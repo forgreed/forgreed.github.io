@@ -1,3 +1,3 @@
-#[forgreed.github.io](http://forgreed.github.io)
+#[garrettreed.github.io](http://garrettreed.github.io)
 
 #### Placeholder for Github pages page.
